@@ -14,7 +14,7 @@
 
 ## Navigation
 - [Introduction](#introduction)
-- [Getting MojoLauncher](#getting-mojolauncher)
+- [Getting PritamXLauncher](#getting-mojolauncher)
 - [Building](#building) 
 - [Current roadmap](#current-roadmap) 
 - [License](#license) 
