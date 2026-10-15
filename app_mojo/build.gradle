@@ -346,5 +346,12 @@ dependencies {
     implementation project(":sdl:jni_bindings")
     // implementation 'net.sourceforge.streamsupport:streamsupport-cfuture:1.7.0'
 
-    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+        implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+
+    // Firebase Skin Store
+    implementation platform('com.google.firebase:firebase-bom:34.4.0')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage'
+}
 }
