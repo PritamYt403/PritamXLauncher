@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "728617529223",
+    "project_id": "pritamxlauncher-store",
+    "storage_bucket": "pritamxlauncher-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728617529223:android:c5c5b31594eb8b7f5c6d22",
+        "android_client_info": {
+          "package_name": "git.artdeell.mjlaunch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGpoq8k0fmiD6UBSAZukL-OGHAPlYY6pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
