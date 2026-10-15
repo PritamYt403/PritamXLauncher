@@ -59,7 +59,7 @@ public class MainMenuFragment extends Fragment {
         Button mPlayButton = view.findViewById(R.id.play_button);
         mVersionSpinner = view.findViewById(R.id.mc_version_spinner);
 
-        mNewsButton.setOnClickListener(v -> Tools.openURL(requireActivity(), Tools.URL_HOME));
+        mNewsButton.setOnClickListener(v -> Tools.openURL(requireActivity(), "https://t.me/PritamXLauncher"));
         mDiscordButton.setOnClickListener(v -> Tools.openURL(requireActivity(), getString(R.string.social_media_invite)));
         mCustomControlButton.setOnClickListener(v -> startActivity(new Intent(requireContext(), CustomControlsActivity.class)));
         mInstallJarButton.setOnClickListener(v -> runInstallerWithConfirmation());
