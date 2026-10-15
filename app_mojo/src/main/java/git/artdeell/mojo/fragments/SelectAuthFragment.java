@@ -18,7 +18,7 @@ import git.artdeell.mojo.progresskeeper.ProgressKeeper;
 public class SelectAuthFragment extends Fragment {
     public static final String TAG = "AUTH_SELECT_FRAGMENT";
 
-    public SelectAuthFragment(){
+    public SelectAuthFragment() {
         super(R.layout.fragment_select_auth_method);
     }
 
@@ -26,15 +26,16 @@ public class SelectAuthFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         Button mMicrosoftButton = view.findViewById(R.id.button_microsoft_authentication);
         Button mLocalButton = view.findViewById(R.id.button_local_authentication);
-        Button mElyByButton = view.findViewById(R.id.button_elyby_authentication);
 
-        mMicrosoftButton.setOnClickListener(v -> launchAuthFragment(MicrosoftLoginFragment.class, MicrosoftLoginFragment.TAG));
-        mLocalButton.setOnClickListener(v -> launchAuthFragment(LocalLoginFragment.class, LocalLoginFragment.TAG));
-        mElyByButton.setOnClickListener(v -> launchAuthFragment(ElyByLoginFragment.class, ElyByLoginFragment.TAG));
+        mMicrosoftButton.setOnClickListener(v ->
+                launchAuthFragment(MicrosoftLoginFragment.class, MicrosoftLoginFragment.TAG));
+
+        mLocalButton.setOnClickListener(v ->
+                launchAuthFragment(LocalLoginFragment.class, LocalLoginFragment.TAG));
     }
 
-    private void launchAuthFragment(Class<? extends  Fragment> fragmentClass, String fragmentTag) {
-        if(ProgressKeeper.hasProgressKey(ProgressLayout.AUTHENTICATE)) {
+    private void launchAuthFragment(Class<? extends Fragment> fragmentClass, String fragmentTag) {
+        if (ProgressKeeper.hasProgressKey(ProgressLayout.AUTHENTICATE)) {
             Toast.makeText(requireContext(), R.string.tasks_ongoing, Toast.LENGTH_SHORT).show();
             return;
         }
