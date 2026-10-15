@@ -3,7 +3,7 @@
     <!-- Light or not? -->
     <style name="MojoLauncher" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="windowNoTitle">true</item>
-        <item name="windowActionBar">false</item>
+        <item name="colorAccent">#FF9800</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:statusBarColor">@color/background_status_bar</item>
         <item name="android:navigationBarColor">@color/background_app</item>
