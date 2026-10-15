@@ -196,7 +196,7 @@
     <string name="pedit_java_runtime">Java Runtime</string>
     <string name="pedit_renderer">Vykresľovač</string>
     <string name="notif_channel_name">Všeobecné nastavenia notifikácií</string>
-    <string name="lazy_service_default_title">MJ Foreground Service</string>
+    <string name="lazy_service_default_title">PritamXLauncher Foreground Service</string>
     <string name="use_global_default">(Použiť predvolené nastavenie)</string>
     <string name="default_control">Predvolené kontrolky</string>
     <string name="progresslayout_tasks_in_progress">Počet prebiehajúcich operácií: %d</string>
