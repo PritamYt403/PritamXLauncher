@@ -14,5 +14,6 @@
 
     <color name="primary_text">#FFFFFF</color>
     <color name="secondary_text">#B2B2B2</color>
-
+    <color name="mineknob_track_tint">#4CAF50</color>
+    
 </resources>
