@@ -201,7 +201,7 @@
     <string name="pedit_java_runtime">Runtime Java</string>
     <string name="pedit_renderer">Renderer</string>
     <string name="notif_channel_name">Umum</string>
-    <string name="lazy_service_default_title">MJ Foreground Service</string>
+    <string name="lazy_service_default_title">PritaXLauncher Foreground Service</string>
     <string name="mcl_setting_veroption_installed">Terpasang</string>
     <string name="use_global_default">(Gunakan global bawaan)</string>
     <string name="default_control">Kontrol bawaan</string>
